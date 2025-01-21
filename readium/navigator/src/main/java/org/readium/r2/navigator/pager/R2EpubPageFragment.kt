@@ -285,7 +285,6 @@ internal class R2EpubPageFragment : Fragment() {
             val imageJson = JSONObject(imageDetails)
             val imageUrl = imageJson.getString("src")
 
-
             val javascript = """
     try {
         console.log('JavaScript is executing');
